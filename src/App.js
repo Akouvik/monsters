@@ -48,6 +48,7 @@ class App extends Component {
     );
     return (
       <div className="App">
+        <h1 className="app-title">Choose a Monster Friend</h1>
         <SearchBox
           className="monsters-search-box"
           onSearchChangeHandler={onSearchChange}
